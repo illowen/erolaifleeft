@@ -66,6 +66,28 @@ td.popupmenu div.popupitem .wizard-clear {
 }
 
 
+@media screen and (max-width: 1919px) {
+    .header-info::after {
+        bottom: -114px;
+    }
+}
+
+@media screen and (max-width: 1919px) {
+    .header-info::after {
+        bottom: -58px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-info::before {
+        transform: translateX(90%);
+    }
+    .header-info::after {
+        display: none;
+    }
+}
+
+
 /* End */
 /* Start:/local/templates/erolaif/static/css/main.min.css?1732547207588846*/
 html {
